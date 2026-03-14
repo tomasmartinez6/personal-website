@@ -32,31 +32,12 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.15, ease: 'easeOut' }}
           className="flex flex-col gap-3 max-w-xl"
         >
-          <p className="font-body text-accent text-xs tracking-widest uppercase">
-            Caracas → The World
-          </p>
           <h1 className="font-display text-5xl md:text-6xl text-ink leading-none tracking-tight">
             Tomas<br />Martinez Stone
           </h1>
-          <p className="font-serif italic text-muted text-xl">
-            Builder. Explorer. Venezuelan at heart.
-          </p>
           <p className="font-body text-ink/60 text-sm leading-relaxed max-w-md">
-            I build software products and chase mountains. Born in Caracas, shaped by cities across
-            four continents, and always looking for the next trail or the next hard problem to solve.
+            [Short bio — a sentence or two about who you are, where you're from, and what drives you.]
           </p>
-          <div className="flex gap-4 mt-1">
-            <a
-              href="#homes"
-              onClick={(e) => {
-                e.preventDefault()
-                document.getElementById('homes')?.scrollIntoView({ behavior: 'smooth' })
-              }}
-              className="font-body text-xs tracking-widest uppercase border border-accent text-accent px-5 py-2.5 hover:bg-accent hover:text-offwhite transition-all duration-200"
-            >
-              Explore
-            </a>
-          </div>
         </motion.div>
       </div>
     </section>

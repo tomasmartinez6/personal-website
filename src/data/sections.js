@@ -6,38 +6,17 @@ export const sections = [
       {
         id: 1,
         image: "/images/placeholder.jpg",
-        title: "Caracas",
-        detail: "Born and raised in Caracas, Venezuela — a city of contrasts, chaos, and incredible warmth. The mountains of Ávila always in the background, shaping every view and every memory."
+        title: "Venezuela",
       },
       {
         id: 2,
         image: "/images/placeholder.jpg",
-        title: "Miami",
-        detail: "The gateway between Latin America and the US. A city that felt like a second home before it became a first — the smell of café con leche and the sound of salsa never far away."
+        title: "South Florida",
       },
       {
         id: 3,
         image: "/images/placeholder.jpg",
-        title: "New York",
-        detail: "The city that sharpens you. Every subway ride, every rooftop, every impossible winter walk across the bridge — all of it part of becoming who you are."
-      },
-      {
-        id: 4,
-        image: "/images/placeholder.jpg",
-        title: "San Francisco",
-        detail: "Fog, hills, and the relentless optimism of people trying to change the world. The Bay Area taught me to think bigger and move faster."
-      },
-      {
-        id: 5,
-        image: "/images/placeholder.jpg",
-        title: "Barcelona",
-        detail: "Where food is an art form and the city stays alive until sunrise. Gaudí's shadows fall on every corner — a place that feels like a dream you don't want to leave."
-      },
-      {
-        id: 6,
-        image: "/images/placeholder.jpg",
-        title: "London",
-        detail: "Grey skies and golden pubs. A city of layers — ancient and modern coexisting in every postcode. The Thames at dusk is something you carry with you forever."
+        title: "New York City",
       },
     ]
   },
@@ -48,20 +27,8 @@ export const sections = [
       {
         id: 1,
         image: "/images/placeholder.jpg",
-        title: "Universidad Simón Bolívar",
-        detail: "Where it all started — engineering fundamentals, late nights in the labs, and lifelong friends. The campus carved into the Caracas valley between mountains."
-      },
-      {
-        id: 2,
-        image: "/images/placeholder.jpg",
-        title: "Columbia University",
-        detail: "New York became my classroom. Columbia pushed every assumption I had and opened doors I didn't know existed. Morningside Heights in autumn is something else entirely."
-      },
-      {
-        id: 3,
-        image: "/images/placeholder.jpg",
-        title: "Self-Directed Learning",
-        detail: "Some of the most important education happens outside of institutions — through travel, conversations with strangers, and the humbling experience of figuring things out alone."
+        title: "Stanford University",
+        detail: "B.S. + M.S. -> Management Science and Engineering \n Minor -> Data Science"
       },
     ]
   },

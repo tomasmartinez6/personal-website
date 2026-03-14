@@ -17,9 +17,6 @@ export default function Section({ section }) {
             {section.title}
           </h2>
           <div className="flex-1 h-px bg-ink/15 mb-2" />
-          <span className="font-body text-xs tracking-widest text-muted mb-2">
-            {section.cards.length} entries
-          </span>
         </motion.div>
 
         {/* Card grid — 3 columns */}

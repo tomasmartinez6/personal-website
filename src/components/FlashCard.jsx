@@ -56,7 +56,7 @@ export default function FlashCard({ card, onClose }) {
                 Close
               </button>
             </div>
-            <p className="font-body text-ink/70 text-sm leading-relaxed">{card.detail}</p>
+            <p className="font-body text-ink/70 text-sm leading-relaxed whitespace-pre-line">{card.detail}</p>
           </div>
         </motion.div>
       </motion.div>
