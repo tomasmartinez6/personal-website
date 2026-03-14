@@ -5,7 +5,7 @@ export const sections = [
     cards: [
       {
         id: 1,
-        image: "/images/placeholder.jpg",
+        image: "/images/caracas.jpg",
         title: "Venezuela",
       },
       {
@@ -59,6 +59,18 @@ export const sections = [
         image: "/images/placeholder.jpg",
         title: "Consultant",
         detail: "Flying in, understanding the problem, and flying out — leaving something better behind. Every engagement a different industry, a different set of constraints."
+      },
+    ]
+  },
+  {
+    id: "entrepreneurship",
+    title: "ENTREPRENEURSHIP",
+    cards: [
+      {
+        id: 1,
+        image: "/images/entrepreneurship-1.jpg",
+        title: "[Venture name]",
+        detail: "[Description placeholder]"
       },
     ]
   },
