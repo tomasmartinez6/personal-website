@@ -33,7 +33,7 @@ Commit and push to GitHub regularly throughout any session — after each meanin
 ```
 App
 ├── NavBar          — sticky nav; reads section ids/titles from sections.js
-├── Hero            — full-viewport, Caracas bg + headshot + bio
+├── Hero            — compact header (pt-24 pb-16), no background image, headshot + bio
 └── Section (×N)    — one per entry in sections.js
     └── ImageCard (×N)
         └── FlashCard   — modal, rendered inline via useState; Framer Motion rotateY flip-in
@@ -42,10 +42,12 @@ App
 **FlashCard pattern** — `ImageCard` owns the open/close state locally (`useState`). `FlashCard` is rendered inline (not portaled), using a `fixed inset-0` overlay. It listens for `Escape` via `useEffect` and accepts an `onClose` prop for click-outside/button dismissal.
 
 **Styling** — Tailwind CSS v3 utility classes throughout. Custom design tokens are defined in `tailwind.config.js`:
-- `bg-bg` / `#0d0d0d` — page background
-- `text-accent` / `#c9a84c` — warm amber/gold accent
-- `text-forest` / `#2d6a4f` — deep forest green
-- `text-offwhite` / `#f0ece3` — body text
+- `bg-bg` / `#d8e8c4` — earthy sage-green page background (light theme)
+- `text-ink` / `#1e3120` — primary dark text (dark forest green)
+- `text-muted` / `#4a6b4c` — secondary/subdued text
+- `text-accent` / `#7a5c10` — warm amber accent (darker for legibility on green bg)
+- `text-forest` / `#2d6a4f` — forest green (used for headings, logo)
+- `offwhite` / `#f0ece3` — used only for hover-fill button text
 
 Fonts (Archivo Black, Playfair Display, Inter) are loaded via Google Fonts in `index.html`. Use `font-display`, `font-serif`, `font-body` Tailwind classes.
 

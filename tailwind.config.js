@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: '#0d0d0d',
-        accent: '#c9a84c',
+        bg: '#d8e8c4',
+        ink: '#1e3120',
+        muted: '#4a6b4c',
+        accent: '#7a5c10',
         forest: '#2d6a4f',
         offwhite: '#f0ece3',
       },
@@ -21,4 +23,3 @@ export default {
   },
   plugins: [],
 }
-

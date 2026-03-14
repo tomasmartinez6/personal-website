@@ -5,7 +5,7 @@ export default function NavBar() {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 80)
+    const handleScroll = () => setScrolled(window.scrollY > 60)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
@@ -18,13 +18,13 @@ export default function NavBar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-bg/95 backdrop-blur border-b border-white/5' : 'bg-transparent'
+        scrolled ? 'bg-bg/95 backdrop-blur border-b border-ink/15' : 'bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="font-display text-accent text-sm tracking-widest uppercase hover:opacity-70 transition-opacity"
+          className="font-display text-forest text-sm tracking-widest uppercase hover:opacity-70 transition-opacity"
         >
           TMS
         </button>
@@ -33,7 +33,7 @@ export default function NavBar() {
             <button
               key={s.id}
               onClick={() => scrollTo(s.id)}
-              className="font-body text-xs tracking-widest uppercase text-offwhite/60 hover:text-accent transition-colors duration-200"
+              className="font-body text-xs tracking-widest uppercase text-ink/70 hover:text-forest transition-colors duration-200"
             >
               {s.title}
             </button>

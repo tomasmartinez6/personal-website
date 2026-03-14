@@ -5,14 +5,14 @@ import { sections } from './data/sections'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-bg text-offwhite">
+    <div className="min-h-screen bg-bg text-ink">
       <NavBar />
       <Hero />
       {sections.map((section) => (
         <Section key={section.id} section={section} />
       ))}
-      <footer className="border-t border-white/5 py-8 px-6 text-center">
-        <p className="font-body text-xs tracking-widest uppercase text-offwhite/20">
+      <footer className="border-t border-ink/10 py-8 px-6 text-center">
+        <p className="font-body text-xs tracking-widest uppercase text-ink/30">
           Tomas Martinez Stone · Built with curiosity
         </p>
       </footer>
